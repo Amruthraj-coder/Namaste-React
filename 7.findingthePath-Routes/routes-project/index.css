@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    
+    font-style: normal;
+}
+
+.app-container{
+background-color: #e3e3e383;
+background-color:color-mix(in lab, rgb(219, 199, 219,0.5) 60%, rgba(110, 187, 190, 0.767));
+/* height: 100vh; */
+.header{
+    background-color: rgba(110, 187, 190, 0.767);
+    /* git push -u origin master */
+
+    padding: 0 5vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 10px 100px 10px #6a7c78;
+    color: black;
+    .img{
+
+        width: 100px;
+        height: 90px;
+        /* border: 1px solid black; */
+    }
+    .img:hover{
+        cursor: pointer;
+    }
+    .nav-items{
+        font-weight: 500;
+        display: flex;
+         .item{
+            padding-left: 30px;
+            list-style-type: none;
+        } 
+        .item:hover{
+            cursor: pointer;
+        }
+        
+        align-items: center;
+    }
+}
+
+.body{
+    padding: 10px;
+    /* max-height: fit-content; */
+    .res-container{
+        display: flex;
+        flex-flow: row wrap;
+        /* justify-content: space-around; */
+        column-gap: 25px;
+        row-gap: 30px;
+        padding: 20px 20px;
+        
+        .foodimg{
+            width: 100%;
+            
+        }
+        .card{
+            background-color: #fff;
+            border-radius: 5px;
+            /* border: 1px solid black; */
+            padding: 10px;
+            width: 15vw;
+            box-sizing: content-box;
+            box-shadow: 10px 10px 10px 8px rgba(128, 128, 128, 0.712);
+            /* list-style: none; */
+            /* margin: 20px; */
+        }
+
+        width: 90vw;
+
+    }
+   
+}
+
+.card > p{
+ 
+    color: #666262;
+    font-size: small;
+
+}
+
+
+}
+.card > Link{
+    text-decoration: none;
+    list-style: none;
+}
